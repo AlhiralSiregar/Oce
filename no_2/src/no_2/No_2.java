@@ -20,6 +20,7 @@ public class No_2 {
     public static void main(String[] args) {
        Scanner in = new Scanner (System.in);   
     int oce1,oce2;
+    int sum=0;
     System.out.println("Input");
     System.out.print("Awal    : ");
     oce1=in.nextInt();
@@ -36,7 +37,8 @@ public class No_2 {
             }
         }
         if (tmp != 1){
-            System.out.print(num);
+            //System.out.print(num);
+            sum+=num;
         }
         num++;
     }
